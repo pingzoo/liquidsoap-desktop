@@ -1,0 +1,1 @@
+<b>PHP version:</b> <?php echo phpversion(); ?>
