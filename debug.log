@@ -1,0 +1,42 @@
+- 21:12:41.094 INFO: --------------------------------------------------------
+- 21:12:41.094 INFO: Started application
+- 21:12:41.094 INFO: Logging to: C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\debug.log
+- 21:12:41.094 INFO: Log level = DEBUG4
+- 21:12:41.094 INFO: Starting Mongoose 3.9c web server
+- 21:12:41.094 INFO: WWW directory: C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\www
+- 21:12:41.094 INFO: Index files: index.html,index.php
+- 21:12:41.094 INFO: CGI interpreter: C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\php\php-cgi.exe
+- 21:12:41.094 INFO: CGI pattern: **.php$
+- 21:12:41.094 INFO: Hide files patterns: 
+- 21:12:41.094 INFO: CGI environment variables set: TMP=C:\Users\lenz_\AppData\Local\Temp\,TEMP=C:\Users\lenz_\AppData\Local\Temp\,TMPDIR=C:\Users\lenz_\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:12:41.110 INFO: Web server url: http://127.0.0.1:51146/
+- 21:12:41.110 INFO: remote_debugging_port = 51679
+- 21:12:41.110 DEBUG: Command line string for the browser process: "C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\liquidsoap-desktop.exe" --no-sandbox --lang=en-US --log-file="C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\debug.log" --remote-debugging-port=51679
+- 21:12:41.203 DEBUG: App::OnContextInitialized()
+- 21:12:41.203 DEBUG: Window max width/height = 1840/992
+- 21:12:41.203 DEBUG: GetBrowserWindow(): not found, hwnd = 132594
+- 21:12:41.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:12:41.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:12:41.219 DEBUG: StoreBrowserWindow(): hwnd = 132594
+- 21:12:41.016 DEBUG: Command line string for the gpu-process process: "C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\liquidsoap-desktop.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x130f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=22.19.677.257 --gpu-driver-date=9-22-2017 --lang=en-US --log-file="C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\debug.log" --service-request-channel-token=F1B0BB9404DA48E8995029F728750C39 --mojo-platform-channel-handle=1816 /prefetch:2
+- 21:12:41.266 DEBUG: ClientHandler::OnAfterCreated()
+- 21:12:41.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:12:42.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:12:42.000 DEBUG: Command line string for the renderer process: "C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\liquidsoap-desktop.exe" --type=renderer --no-sandbox --primordial-pipe-token=714EE7F1DB2E0C222C54C0C7C3E51779 --lang=en-US --lang=en-US --log-file="C:\Users\lenz_\Desktop\Projektarbeit - liquidsoap-desktop\liquidsoap-desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=714EE7F1DB2E0C222C54C0C7C3E51779 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+- 21:12:42.047 DEBUG: OnBrowserCreated()
+[1029/211242.107:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:12:43.578 INFO: GET 200 /style.css
+- 21:12:43.578 INFO: GET 200 /
+- 21:12:43.250 DEBUG: OnContextCreated()
+- 21:12:43.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51146/
+- 21:12:44.735 DEBUG: WM_DESTROY
+- 21:12:44.735 DEBUG: RemoveBrowserWindow(): hwnd = 132594
+- 21:12:44.735 INFO: Stopping Mongoose web server
+- 21:12:44.735 DEBUG: Mongoose webserver stopped immediately
+- 21:12:44.735 DEBUG: OnBeforeClose() hwnd=132590
+- 21:12:44.735 DEBUG: RemoveBrowserWindow(): hwnd = 132590
+- 21:12:44.750 DEBUG: GetBrowserWindow(): not found, hwnd = 132590
+- 21:12:44.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:12:44.750 DEBUG: Calling CefQuitMessageLoop()
+- 21:12:44.813 INFO: Ended application
+- 21:12:44.813 INFO: --------------------------------------------------------
